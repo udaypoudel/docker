@@ -1,4 +1,3 @@
-rrfjrfkfwa
 docker file  -> docker image -> docker container
 
 dockerfile => is a type of file that contain set of instruction needed to build docker images.
