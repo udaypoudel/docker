@@ -3,3 +3,5 @@ docker file  -> docker image -> docker container
 dockerfile => is a type of file that contain set of instruction needed to build docker images.
 
 docker image => executable package that includes an application and all its dependencies, created from a Dockerfile and used to run containers.
+
+docker container => a Docker container is a running version of an app, packed with everything it needs to work.
