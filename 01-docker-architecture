@@ -7,22 +7,7 @@ docker image => executable package that includes an application and all its depe
 docker container => a Docker container is a running version of an app, packed with everything it needs to work.
 
         
-     docker commands 
 
-docker pull <imagename> => pull the image from the dockerhub ,registry
-
-docker run <imagename> => pull the image and create and start the container 
-
-docker start <containername> =>start the stop contianer available in local
-
-docker stop <containername> =>stop the running container 
-   
-docker rm <containername or id> =>remove the container 
-
-docker rmi <imagename> =>remove the image 
-
-
-docker -p 8000:80 <imagename> => used to port bind with the container to local.
 
 
 
