@@ -1,1 +1,12 @@
-from <imagename>     //need a base image to create a new image
+     contranize the node app
+
+
+FROM <imagename>     //need a base image to create a new image
+
+WORKDIR <directoryname>     //need a folder to run container
+
+COPY . .     //copy the all things from the current folder to workdir
+
+RUN npm install    //need to run the app
+
+CMD ["npm","start"]   //after the images is created and while running container run this command
