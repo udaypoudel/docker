@@ -1,1 +1,1 @@
-
+volumes are used to store the files form the container even if the containers are removed or deleted
