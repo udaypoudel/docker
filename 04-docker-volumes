@@ -1,0 +1,5 @@
+volumes are used to store the files form the container even if the containers are removed or deleted
+
+docker volume create mydata        //create a volume
+docker run -v mydata:/app/data ubuntu    //in the container inside /app/data ,the files are saved in mydata volume
+ 
